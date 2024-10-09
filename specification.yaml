@@ -1,0 +1,10 @@
+openapi: 3.0.3
+info:
+  title: test-api
+  description: |-
+    test api
+  version: 0.0.1
+servers:
+  - url: "http://localhost:8080"
+  - url: "https://microcks-microcks.apps.cluster-example.com/rest/test-api/0.0.1"
+paths: {}

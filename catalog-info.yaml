@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "test-api"
+  title: "test-api"
+  description: "test api"
+  annotations:
+    backstage.io/spectral-ruleset-url: https://raw.githubusercontent.com/agiertli/spectral-rules/main/ruleset.yaml
+spec:
+  type: openapi
+  system: agiertli
+  owner: "group:default/agiertli"
+  lifecycle: experimental
+  definition:
+    $openapi: https://github.com/agiertli/-test-api-api/blob/main/specification.yaml
